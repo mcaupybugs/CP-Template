@@ -6,21 +6,6 @@ using namespace std;
 #define SIZE 1000001
 void solve()
 {
-    string str;
-    cin >> str;
-    set<char> s;
-    s.insert('H');
-    s.insert('Q');
-    s.insert('9');
-    for (int i = 0; i < str.length(); i++)
-    {
-        if (s.count(str[i]) == 1)
-        {
-            cout << "YES\n";
-            return;
-        }
-    }
-    cout << "NO\n";
 }
 int main()
 {
@@ -31,8 +16,7 @@ int main()
     //freopen("output.txt", "w", stdout);
 #endif
     int t = 1;
-    // cin >> t;
-    //t = 1;
+    //cin >> t;
     for (int i = 1; i <= t; i++)
     {
         //cout << "Case m#" << i << ":" << endl;
